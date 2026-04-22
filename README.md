@@ -91,7 +91,7 @@ I created this project from the beginning with a structured analytics mindset. M
 - loading the prepared dataset for reporting
 - designing an initial dashboard prototype for the client demo
 
-## STAR Method Explanation
+## Explanation
 
 ### Situation
 The client needed a structured way to move from raw operational data to meaningful reporting. The challenge was not only technical preparation, but also making the work understandable and presentable for a business audience.
