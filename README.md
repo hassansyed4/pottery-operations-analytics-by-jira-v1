@@ -1,4 +1,4 @@
-# Pottery Operations Analytics – Version 1
+# Pottery Operations Analytics through JIRA – Version 1
 
 A client-demo-ready analytics project that simulates how operational data can be organized, cleaned, validated, and prepared for business reporting. This Version 1 repository documents the full workflow from project planning to dataset preparation and dashboard prototyping.
 
@@ -26,6 +26,93 @@ The business need was to convert raw operational data into a clean and decision-
 - data quality checks
 - business reporting
 - leadership-friendly dashboarding
+
+# Jira Project Structure and Agile Workflow
+
+## This project was designed using a Jira-style Agile workflow to simulate a real IT delivery environment. The work was structured using Epics, Tasks, and a Kanban board to track progress across multiple stages.
+
+Project Management Approach
+Agile methodology (lightweight implementation)
+Kanban board for workflow visualization
+Sprint-based execution (Sprint 1, Sprint 2)
+Task tracking with status movement across stages
+Epic Structure
+
+## The project was divided into high-level Epics representing major phases of the analytics workflow:
+
+Epic 1: Data Acquisition & Understanding
+Data Source Identification
+Data Schema Design
+Epic 2: Data Engineering & Processing
+Data Extraction Implementation
+Data Cleaning & Transformation
+Epic 3: Data Validation & Quality Assurance
+Missing Metadata Clarification
+Data Quality Validation
+Epic 4: Analytics & Visualization
+Initial Dataset Loaded
+Dashboard Prototype Created
+Task Breakdown
+
+## Each Epic was broken down into actionable tasks:
+
+Tasks were created to represent specific deliverables
+Each task included:
+owner (simulated)
+due date
+sprint assignment
+status tracking
+
+Example:
+
+Task: Data Cleaning & Transformation
+Sprint: Sprint 1
+Status: In Progress
+Kanban Board Workflow
+
+The project used a Kanban-style board to track progress:
+
+To Do → Tasks planned but not started
+In Progress → Active development
+Waiting for Info → Blocked tasks requiring clarification
+In Review → Validation and quality checks
+Done → Completed deliverables
+
+This helped visualize the workflow and ensure structured progress.
+
+Sprint Planning
+
+## The project was divided into two sprints:
+
+Sprint 1
+Data source identification
+Schema design
+Data extraction
+Initial cleaning
+Sprint 2
+Data validation
+Pipeline review
+Dataset loading
+Dashboard prototype
+Jira Concepts Applied
+
+## This project demonstrates practical understanding of:
+
+Epics → High-level business objectives
+Tasks → Individual work units
+Kanban → Workflow visualization
+Sprints → Time-boxed execution
+Status tracking → Work progress monitoring
+Backlog → Planned tasks before execution
+Why This Matters
+
+## Using Jira-style structuring allowed the project to:
+
+simulate real IT project delivery
+improve task organization and clarity
+track progress across stages
+identify bottlenecks (e.g., waiting for info)
+align technical work with business outcomes
 
 ## Project Context
 
@@ -194,46 +281,19 @@ This can describe:
 - validation notes
 - pipeline review notes
 
-## How to Explain This Project in Interview
+## This repository represents Version 1 of the requirement. In Version 2, I completed the reporting workflow through Excel and Power BI, where I fetched Jira data in CSV format, transformed the data in Excel, and built visuals in both Excel and Power BI to support business needs and make insights easier for non-technical clients to understand.
 
-You can explain it like this:
-
-> I created this project as a client demo to show how operational data can be taken from an unstructured planning stage into a clean, validated, and dashboard-ready analytical format. I managed the work in a Jira-style workflow, defined the data structure, supported extraction and transformation thinking, reviewed validation requirements, and built an initial dashboard prototype. The client was satisfied because the work was not only technically organized, but also easy to understand from a business perspective.
-
-## Short Interview Version
-
-> This was a Version 1 analytics delivery project where I built the workflow from the beginning, planned the stages in a Jira-style board, prepared the data pipeline logic, validated the dataset, and created a dashboard prototype for a client demo.
-
-## What to Say About Version 2
-
-You wanted a strong closing line about the next phase. Use this:
-
-> This repository represents Version 1 of the requirement. In Version 2, I completed the reporting workflow through Excel and Power BI, where I fetched Jira data in CSV format, transformed the data in Excel, and built visuals in both Excel and Power BI to support business needs and make insights easier for non-technical clients to understand.
-
-## Stronger Expanded Version 2 Statement
+## Version 2 Statement:
 
 > Version 1 focused on workflow design, dataset preparation, validation, and dashboard prototyping. In Version 2, I advanced the solution by working with Jira-exported CSV data, performing transformation and structuring in Excel, and developing business-friendly visuals in Excel and Power BI. This helped translate operational ticket data into insights that leadership and non-technical stakeholders could quickly understand and use for decision-making.
 
 ## Resume / GitHub Highlights
-
-You can also reuse these points for resume bullets or GitHub highlights:
-
 - Designed and managed an end-to-end analytics workflow using a Jira-style delivery board
 - Structured raw operational data into a validated, reporting-ready format
 - Built a dashboard prototype to support business reporting and client demonstration
 - Applied data validation, transformation, and schema review concepts
 - Presented analytics work in a stakeholder-friendly format
 
-## Next Improvements for This Repo
-
-To make this GitHub repository even stronger, add:
-
-1. a screenshot of the board
-2. a sample raw CSV file
-3. a cleaned output CSV file
-4. a dashboard screenshot
-5. a short client-demo-summary file
-6. a Power BI Version 2 section with screenshots later
 
 ## Final Note
 
