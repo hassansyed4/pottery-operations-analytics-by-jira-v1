@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+
+# Excel / Power BI temporary files
+~$*.xlsx
+*.tmp
+
+# Virtual env
+.venv/
+venv/
