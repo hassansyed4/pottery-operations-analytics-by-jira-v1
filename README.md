@@ -17,9 +17,10 @@ This project was designed as a structured analytics engagement for a client demo
 
 The project was managed in a Jira-style board workflow and organized into sprint-based delivery stages. The demo outcome was strong because the work was not only technical, but also presented in a way that non-technical stakeholders could understand.
 
-## Project JIRA Desktopn Screenshot:
+## Project JIRA Desktop Screenshot:
 
 <img width="1461" height="642" alt="image" src="https://github.com/user-attachments/assets/cddda0e4-d447-493b-80ac-0f67208ba7c7" />
+(More images are available in docs/sreenshots folder. 
 
 
 ## Business Goal
